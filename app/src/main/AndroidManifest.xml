@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.expensetracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/expense"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pd_month_pie"/>
+        <activity android:name=".pd_month_graph" />
+        <activity android:name=".pd_week_pie" />
+        <activity android:name=".pd_week_graph" />
+        <activity android:name=".Previous_data_month" />
+        <activity android:name=".Previous_data_week" />
+        <activity android:name=".Reports" />
+        <activity android:name=".PdPie" />
+        <activity
+            android:name=".pdGraphs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Previous_data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enter_email"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
